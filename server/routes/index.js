@@ -24,7 +24,7 @@ router.get('/communication', indexController.displayCommunicationPage);
 router.get('/engineering', indexController.displayEngineeringPage);
 
 
-router.get('/healtscience', indexController.displayHealthsciencePage);
+router.get('/healthscience', indexController.displayHealthsciencePage);
 
 
 router.get('/transportation', indexController.displayTransportationPage);

@@ -21,7 +21,7 @@ module.exports.displayBusinessPage = (req, res, next) => {
     res.render('business', {title: 'Business'});
 }
 module.exports.displayCommunicationPage = (req, res, next) => {
-    res.render('Communication', {title: 'Communication'});
+    res.render('communication', {title: 'Communication'});
 }
 
 module.exports.displayContactPage = (req, res, next) => {
@@ -33,7 +33,7 @@ module.exports.displayEngineeringPage = (req, res, next) => {
 }
 
 module.exports.displayHealthsciencePage = (req, res, next) => {
-    res.render('healtscience', {title: 'Healthscience'});
+    res.render('healthscience', {title: 'Healthscience'});
 }
 
 module.exports.displayTransportationPage = (req, res, next) => {
